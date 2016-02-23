@@ -1,5 +1,5 @@
 # Gravatar Helper
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md) 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) 
 [![Travis](https://img.shields.io/travis/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://travis-ci.org/PotatoPowered/phone-helper/builds) 
 [![Codecov](https://img.shields.io/codecov/c/github/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://codecov.io/github/PotatoPowered/phone-helper) 
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/PotatoPowered/phone-helper/)
