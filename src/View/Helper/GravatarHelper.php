@@ -14,6 +14,7 @@
  * @license     http://www.opensource.org/licenses/mit-license.php MIT License
  */
 namespace GravatarHelper\View\Helper;
+
 use Cake\View\Helper;
 
 /**
@@ -41,13 +42,13 @@ class GravatarHelper extends Helper
         // The gravatar base URL
         $gravatar = "http://www.gravatar.com/avatar/";
 
-        if(!isset($options['size'])) {
+        if (!isset($options['size'])) {
             $options['size'] = 150;
         }
-        if(!isset($options['default'])) {
+        if (!isset($options['default'])) {
             $options['default'] = "mm";
         }
-        if(!isset($options['class'])) {
+        if (!isset($options['class'])) {
             $options['class'] = "gravatar";
         }
 
@@ -55,7 +56,6 @@ class GravatarHelper extends Helper
         $default = "&d=" . $options['default'];
         $email = md5(strtolower(trim($email)));
 
-        return '<img class="'. $options['class'] . '" src="' . $gravatar . $email . $size . $default . '"/>';
+        return '<img class="' . $options['class'] . '" src="' . $gravatar . $email . $size . $default . '"/>';
     }
 }
-

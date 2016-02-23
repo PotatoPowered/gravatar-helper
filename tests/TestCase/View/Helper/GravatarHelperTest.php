@@ -49,6 +49,6 @@ class ProgressHelperTest extends TestCase
         $testEmail = $this->Gravatar->avatar('test@email.com');
         $devEmail = $this->Gravatar->avatar('sutton.blake@gmail.com');
         $this->assertEquals('<img class="gravatar" src="http://www.gravatar.com/avatar/93942e96f5acd83e2e047ad8fe03114d?&s=150&d=mm"/>', $testEmail);
-		$this->assertEquals('<img class="gravatar" src="http://www.gravatar.com/avatar/412d76ebcc14fbca1a717c4a9b3f8bf1?&s=150&d=mm"/>', $devEmail);
+        $this->assertEquals('<img class="gravatar" src="http://www.gravatar.com/avatar/412d76ebcc14fbca1a717c4a9b3f8bf1?&s=150&d=mm"/>', $devEmail);
     }
 }
