@@ -1,6 +1,6 @@
 # Gravatar Helper
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) 
-[![Jenkins](https://img.shields.io/jenkins/s/http/jenkins.potatopowered.software/gravatar-helper.svg?style=flat-square)](http://potatopowered.software:8484/job/gravatar-helper/) 
+[![Jenkins](https://img.shields.io/jenkins/s/http/jenkins.potatopowered.software/gravatar-helper.svg?style=flat-square)](http://jenkins.potatopowered.software/job/gravatar-helper/) 
 [![Codecov](https://img.shields.io/codecov/c/github/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://codecov.io/github/PotatoPowered/phone-helper) 
 [![Scrutinizer](https://img.shields.io/scrutinizer/g/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/PotatoPowered/phone-helper/) 
 [![Packagist](https://img.shields.io/packagist/dt/potatopowered/gravatar-helper.svg?style=flat-square)](https://packagist.org/packages/potatopowered/gravatar-helper)
