@@ -1,8 +1,8 @@
 # Gravatar Helper
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) 
-[![Travis](https://img.shields.io/travis/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://travis-ci.org/PotatoPowered/phone-helper/builds) 
+[![Jenkins](https://img.shields.io/jenkins/s/http/jenkins.potatopowered.software/gravatar-helper.svg?style=flat-square)](http://potatopowered.software:8484/job/gravatar-helper/) 
 [![Codecov](https://img.shields.io/codecov/c/github/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://codecov.io/github/PotatoPowered/phone-helper) 
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/PotatoPowered/phone-helper/)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/PotatoPowered/gravatar-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/PotatoPowered/phone-helper/) 
 [![Packagist](https://img.shields.io/packagist/dt/potatopowered/gravatar-helper.svg?style=flat-square)](https://packagist.org/packages/potatopowered/gravatar-helper)
 
 A helper that can be used to pull profile pictures from the gravatar service for CakePHP 3.x
@@ -39,4 +39,3 @@ $this->Gravatar->avatar($email, ['size' => 40]);
  * size: The width and height of the profile (150 default)
  * default: The default gravatar image (mm default) [List Here](http://en.gravatar.com/site/implement/images/)
  * class: The css class of the image tag (gravatar default)
-```
