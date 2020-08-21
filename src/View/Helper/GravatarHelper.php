@@ -40,7 +40,7 @@ class GravatarHelper extends Helper
     public function avatar($email, $options = [])
     {
         // The gravatar base URL
-        $gravatar = "http://www.gravatar.com/avatar/";
+        $gravatar = "https://www.gravatar.com/avatar/";
 
         if (!isset($options['size'])) {
             $options['size'] = 150;
