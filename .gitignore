@@ -13,3 +13,4 @@
 /vendors/*
 
 /.idea
+.phpunit.result.cache
