@@ -11,3 +11,6 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+/.idea
+.phpunit.result.cache

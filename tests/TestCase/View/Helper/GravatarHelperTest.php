@@ -13,6 +13,7 @@
  * @version     1.0
  * @license     http://www.opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace GravatarHelper\Test\TestCase\View\Helper;
 
 use Cake\TestSuite\TestCase;
@@ -20,11 +21,11 @@ use Cake\View\View;
 use GravatarHelper\View\Helper\GravatarHelper;
 
 /**
- * GravatarHelper Test Class
+ * GravatarHelperTest Test Class
  *
  * This class contains the main tests for the GravatarHelper Class.
  */
-class ProgressHelperTest extends TestCase
+class GravatarHelperTest extends TestCase
 {
     /**
      * Setup the application so that we can run the tests.
@@ -32,7 +33,7 @@ class ProgressHelperTest extends TestCase
      * The setup involves initializing a new CakePHP view and using that to
      * get a copy of the GravatarHelper.
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $View = new View();
@@ -50,5 +51,6 @@ class ProgressHelperTest extends TestCase
         $devEmail = $this->Gravatar->avatar('sutton.blake@gmail.com');
         $this->assertEquals('<img class="gravatar" src="https://www.gravatar.com/avatar/93942e96f5acd83e2e047ad8fe03114d?&s=150&d=mm"/>', $testEmail);
         $this->assertEquals('<img class="gravatar" src="https://www.gravatar.com/avatar/412d76ebcc14fbca1a717c4a9b3f8bf1?&s=150&d=mm"/>', $devEmail);
+
     }
 }
